@@ -1,0 +1,53 @@
+body {
+    background-color: #333756;    
+}
+
+.box-shadow {
+    -webkit-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.6);
+}
+
+.navbar {
+    margin-bottom: 5vw !important;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.jumbotron {
+    background: rgba(256, 256, 256, 0.8);
+}
+
+#face {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#proj-links {
+    text-align: center !important;
+}
+
+#contact {
+    left: 0;
+    bottom: 0;
+    height: 2vw;
+    width: 100%;
+    background-color: #32354b;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: -5px -5px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: -5px -5px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: -5px -5px 10px 0px rgba(0,0,0,0.6);
+}
